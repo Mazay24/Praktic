@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.Savitsky">
+   <children>
+      <Text fx:id="TextFirst" layoutX="2.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пензенская областная картинная галерея имени К. А. Савицкого — государственный музей в г. Пензе. Крупнейший и один из самых известных музеев Пензенской области. Основан в 1892 году. Основу музея составила коллекция картин, пожертвованная городу пензенским губернатором Н. Д. Селивёрстовым. С января 1892 года коллекция, получившая название картинной галереи Селивёрстова, была выставлена для широкого обозрения в Швецовской школе (ремесленной школе Ф. Е. Швецова). А «в октябре того же года, — как писали „Пензенские ведомости“, — в помещении картинной галереи Селивёрстова была открыта выставка Товарищества передвижников, на которой экспонировались „Взятие снежного городка“ В. И. Сурикова, „Всюду жизнь“ Н. А. Ярошенко, „Грешница“ В. Д. Поленова, „Страдная пора“ Г. Г. Мясоедова и пр.» Около 20 картин было подарено известными художниками. В поездках по Пензенской губернии вместе с хранителем музея В. М. Терёхиным Савицкий добывал экспонаты прикладного искусства и предметы религиозного культа мордвы. Российская Императорская Академия передала в дар музею много ценных экспонатов. К 1902 году в музее насчитывалось уже 450 художественных произведений.Особенно крупные поступления были от генерала А. А. Боголюбова: в 1906 году он подарил 44 картины, старинное оружие, посуду и предметы прикладного искусства, а в 1911—1912 годах по его завещанию в музей поступило 192 единицы живописи, акварелей и рисунков. К 1917 году число художественных произведений составляло почти 1000 единиц." textAlignment="JUSTIFY" wrappingWidth="450.13677978515625">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ImageFirst" fitHeight="260.0" fitWidth="327.0" layoutX="473.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@savi.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="88.0" prefWidth="800.0" style="-fx-background-color: #155263;">
+         <children>
+            <Text fill="WHITE" layoutX="106.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Картинная галерея имени К. А. Савицкого" wrappingWidth="586.9368934631348">
+               <font>
+                  <Font name="Arial Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #FF6F3C;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="459.0" layoutY="86.0" prefHeight="522.0" prefWidth="14.0" style="-fx-background-color: #155263;" />
+      <Button fx:id="Map" layoutX="547.0" layoutY="354.0" mnemonicParsing="false" onAction="#map" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать на карте" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Site" layoutX="547.0" layoutY="432.0" mnemonicParsing="false" onAction="#site" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Открыть сайт" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Phone" layoutX="547.0" layoutY="512.0" mnemonicParsing="false" onAction="#phone" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать телефон" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

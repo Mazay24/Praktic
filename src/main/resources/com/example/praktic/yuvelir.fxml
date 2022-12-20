@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.InfoMonuments">
+   <children>
+      <Text fx:id="TextFirst" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скульптурная композиция «Первопоселе́нец» (памятник Первопоселенцу) — памятник в г. Пензе, посвящённый основателям и первым жителям этого города. Монумент символизирует два начала в судьбе первопоселенцев Пензы во второй половине XVII века — оборону юго-восточных границ Русского государства от набегов степных кочевников и крестьянский труд.Является одним из наиболее известных и узнаваемых символов города, часто изображается на местной сувенирной и тематической продукции. В 2012 году, по итогам социологического опроса, посвященного 350-летию Пензы, 44% жителей города назвали памятник Первопоселенцу «визитной карточкой» города.Установлен в исторической части города, напротив остатков оборонительного вала городской крепости XVII века (Пенза была основана в 1663 году как город-крепость на засечной черте).Открыт 8 сентября 1980 года в память 600-летия Куликовской битвы.Является объектом культурного наследия регионального значения (1983).Автор монумента — скульптор Валентин Григорьевич Козенюк (1938—1997). Архитектор — Ю. В. Комаров.Инициатор создания монумента — Георг Васильевич Мясников (1926—1996), второй секретарь Пензенского обкома КПСС в 1961—1964 и 1965—1986 гг." textAlignment="JUSTIFY" wrappingWidth="450.13677978515625">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ImageFirst" fitHeight="218.0" fitWidth="327.0" layoutX="473.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yuvelir.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="88.0" prefWidth="800.0" style="-fx-background-color: #155263;">
+         <children>
+            <Text fill="WHITE" layoutX="271.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Последний штрих" wrappingWidth="258.9368591308594">
+               <font>
+                  <Font name="Arial Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #FF6F3C;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="459.0" layoutY="86.0" prefHeight="522.0" prefWidth="14.0" style="-fx-background-color: #155263;" />
+      <Button fx:id="Yuvelir" layoutX="547.0" layoutY="393.0" mnemonicParsing="false" onAction="#yuvelir" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать на карте" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

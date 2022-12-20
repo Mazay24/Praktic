@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.InfoMonuments">
+   <children>
+      <Text fx:id="TextFirst" layoutX="5.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Памятник Белинскому на Театральном проезде был заложен в 1948 г. Он стал вторым памятником писателю в Пензе: предыдущий памятник, установленный в 1911 г., был уничтожен в 1918 г. во время мятежа чехословацкого корпуса.Автором для создания памятника стали известный советский скульптор-монументалист Евгений Викторович Вучетич и архитектор Леонид Михайлович Поляков. Для города это было значительным событием: 19 июня 1948 г. на торжественном событии закладки памятника в память столетия со дня смерти писателя кроме авторов будущего памятника присутствовали такие известные писатели как А. Фадеев, И. Эренбург, П. Замойский, Ф. Гладков, П. Вершигора, а также академик В. Виноградов.Работа над памятником продолжалась 6 лет. Саму скульптуру отлили из бронзы на заводе «Монументскульптура» в Ленинграде. Торжественное открытие памятника состоялось 10 июля 1954 г.Скульптура представляет собой ростовую фигуру Белинского с поднятой рукой. Он как будто начинает выступление, его фигура выражает стремление, поры вперёд. Её высота составляет 5,5 м, и она установлена на четырёхгранном трёхчастном постаменте высотой 5 метров. Постамент облицован серым гранитом." textAlignment="JUSTIFY" wrappingWidth="450.13677978515625">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Text>
+      <ImageView fx:id="ImageFirst" fitHeight="219.0" fitWidth="331.0" layoutX="473.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@belinsk.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="88.0" prefWidth="800.0" style="-fx-background-color: #155263;">
+         <children>
+            <Text fill="WHITE" layoutX="240.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Памятник Белинскому" wrappingWidth="319.73681640625">
+               <font>
+                  <Font name="Arial Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #FF6F3C;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="459.0" layoutY="86.0" prefHeight="522.0" prefWidth="14.0" style="-fx-background-color: #155263;" />
+      <Button fx:id="Belinsk" layoutX="547.0" layoutY="393.0" mnemonicParsing="false" onAction="#belinsk" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать на карте" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

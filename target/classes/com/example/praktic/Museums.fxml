@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="702.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.Museums">
+   <children>
+      <ImageView fx:id="Hold" fitHeight="163.0" fitWidth="222.0" layoutX="-2.0" layoutY="53.0" onMouseClicked="#hold" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hold.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Litra" fitHeight="160.0" fitWidth="231.0" layoutX="-6.0" layoutY="270.0" onMouseClicked="#litra" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@litra.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Savi" fitHeight="170.0" fitWidth="217.0" layoutX="491.0" layoutY="50.0" onMouseClicked="#savi" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@savi.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Odna" fitHeight="167.0" fitWidth="244.0" layoutX="231.0" layoutY="53.0" onMouseClicked="#odna" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@odna.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Kraev" fitHeight="158.0" fitWidth="244.0" layoutX="242.0" layoutY="271.0" onMouseClicked="#kraev" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kraev.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Kluch" fitHeight="163.0" fitWidth="244.0" layoutX="494.0" layoutY="268.0" onMouseClicked="#kluch" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kluch.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #155263;" text="Назад" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

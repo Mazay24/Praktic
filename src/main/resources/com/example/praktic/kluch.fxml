@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.Klyuchevsky">
+   <children>
+      <Text fx:id="TextFirst" layoutX="2.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Музей В.О. Ключевского открыт в 1991 г. в доме на бывшей улице Поповка (ныне ул. Ключевского), где будущий историк провел детские и юношеские годы (1851–1861). В музейный комплекс входят также соседний дом, соединенный с мемориальным зданием переходом, и флигель, расположенный на усадьбе (административное здание).22 мая 2013 г. музей В.О. Ключевского раскрыл свои двери для посетителей после проведенной реконструкции. В мемориальном доме воссоздана культурная среда, которая с раннего детства окружала будущего историка, способствовала формированию его мировоззрения. Экспозиция музея исторически точно изображает нехитрый быт семьи Ключевских после их переезда в Пензу — лавки, шкаф, полка с глиняной и металлической посудой, утварь. Бережно экспонируются редкие сохранившиеся вещи из пензенского дома: настенные часы с боем, чернильница, наличник с окна дома Ключевских.В экспозиции музея представлены материалы, рассказывающие об учебе Василия Ключевского в Пензенском духовном училище и семинарии. Введены мемориальные вещи В.О. Ключевского — серебряный подстаканник и ложечка, переданные в дар музею в 2011 году д. и. н., исследователем научного наследия великого историка Р.А. Киреевой. Экспозиция состоит из двух разделов: «Пензенский период жизни В.О. Ключевского (1841–1861)» и «Научная, педагогическая и общественная деятельность В.О. Ключевского (1861–1911)».Музей ведет, сохраняет и культивирует творческое наследие Ключевского." textAlignment="JUSTIFY" wrappingWidth="450.13677978515625">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ImageFirst" fitHeight="260.0" fitWidth="327.0" layoutX="473.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kluch.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="88.0" prefWidth="800.0" style="-fx-background-color: #155263;">
+         <children>
+            <Text fill="WHITE" layoutX="261.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Музей Ключевского" wrappingWidth="277.9504089355469">
+               <font>
+                  <Font name="Arial Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #FF6F3C;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="459.0" layoutY="86.0" prefHeight="522.0" prefWidth="14.0" style="-fx-background-color: #155263;" />
+      <Button fx:id="Map" layoutX="547.0" layoutY="354.0" mnemonicParsing="false" onAction="#map" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать на карте" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Site" layoutX="547.0" layoutY="432.0" mnemonicParsing="false" onAction="#site" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Открыть сайт" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Phone" layoutX="547.0" layoutY="512.0" mnemonicParsing="false" onAction="#phone" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать телефон" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

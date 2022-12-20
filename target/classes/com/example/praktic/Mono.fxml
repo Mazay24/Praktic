@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="702.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.Monuments">
+   <children>
+      <ImageView fx:id="First" fitHeight="160.0" fitWidth="240.0" layoutY="67.0" onMouseClicked="#first" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@first.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="274.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Yuvelir" fitHeight="147.0" fitWidth="224.0" layoutX="254.0" layoutY="67.0" onMouseClicked="#yuvelir" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yuvelir.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Memor" fitHeight="150.0" fitWidth="221.0" layoutX="492.0" layoutY="66.0" onMouseClicked="#memor" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@memorjpg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Belinsk" fitHeight="160.0" fitWidth="233.0" layoutY="251.0" onMouseClicked="#belinsk" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@belinsk.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Globus" fitHeight="160.0" fitWidth="233.0" layoutX="244.0" layoutY="251.0" onMouseClicked="#globus" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@globus.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Rostok" fitHeight="150.0" fitWidth="221.0" layoutX="489.0" layoutY="254.0" onMouseClicked="#rostok" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rostok.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #155263;" text="Назад" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.InfoMonuments">
+   <children>
+      <Text fx:id="TextFirst" layoutX="5.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Через центр города протекает река Сура. На её набережной находится один из самых ярких символов Пензы – монумент Славы, открытый в 1967 году в честь 50-летия Октябрьской революции. В народе памятный знак бытует под названием «Росток».Монумент состоит из металлического вертикального стержня с раздвоенным концом в виде пробившегося к свету ростка. Высота сооружения – 25 метров. С лицевой стороны стелы на бронированном стекле выгравированы имена земляков – Героев Советского Союза, Героев Социалистического Труда, полных кавалеров ордена Славы, Героев России. На западной стороне стелы – рельефы с сюжетными композициями на тему истории Советского государства, на восточной – с эпизодами Великой Отечественной войны. Рядом с ним находится стела из карельского гранита с замурованным в неё в 1967 году письмом потомкам, которое было завещано вскрыть в 2017 году. С самого детства у молодых поколений был жуткий интерес к тому, что же написали для них и их детей предки. Однако той страны уже нет, а сама церемония прошла достаточно буднично и особо не освещалась. Наверное, теперь это мало кому интересны мысли и послания людей страны, которой нет. Однако письмо, согласно памятной табличке, находится в Краеведческом музее. В новой же капсуле времени вновь расположилось письмо потомкам. Откроют ее в 2063 году, к дате 400-летия основания Пензы." textAlignment="JUSTIFY" wrappingWidth="450.13677978515625">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font></Text>
+      <ImageView fx:id="ImageFirst" fitHeight="226.0" fitWidth="332.0" layoutX="473.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rostok.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="88.0" prefWidth="800.0" style="-fx-background-color: #155263;">
+         <children>
+            <Text fill="WHITE" layoutX="345.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Росток" wrappingWidth="110.13681030273438">
+               <font>
+                  <Font name="Arial Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #FF6F3C;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="459.0" layoutY="86.0" prefHeight="522.0" prefWidth="14.0" style="-fx-background-color: #155263;" />
+      <Button fx:id="Rostok" layoutX="547.0" layoutY="377.0" mnemonicParsing="false" onAction="#rostok" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать на карте" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Message" layoutX="547.0" layoutY="465.0" mnemonicParsing="false" onAction="#message" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Прочитать письмо" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

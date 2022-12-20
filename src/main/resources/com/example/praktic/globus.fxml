@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF6F3C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktic.InfoMonuments">
+   <children>
+      <Text fx:id="TextFirst" layoutX="5.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Монумент «Глобус» — 13-метровое памятное монументальное инженерное сооружение в г. Пензе, олицетворяющее земной шар и символизирующее международную дружбу, один из известных и узнаваемых символов этого города. Установлен в декабре 1972 года в дни юбилейных торжеств, посвящённых 50-летию образования СССР. Монумент «Глобус» расположен на площади Дружбы, которую образует пересечение транспортных узлов трёх городских улиц: Суворова, Бекешской и 8 Марта. Площадь Дружбы получила своё название в 1986 году, до этого — в 1979—1986 годах она называлась «Новая площадь». Жителями города название «Площадь Дружбы» употребляется довольно редко и многим неизвестно. В начале 1970-х годов улица Суворова г. Пензы начала принимать свой современный облик. Сносили старые деревянные дома частного сектора, строили пятиэтажки, расширяли проезжую часть. Появилась сложная транспортная развилка. Смотрелась она мрачновато, поэтому её решили украсить. Эстетика потребовала размещения в центре кольца, форму которого имеет площадь Дружбы, некоего крупного объекта, который не требовал бы подхода к нему для детального рассмотрения и преобразил данную территорию. Этим объектом и стала металлическая конструкция — копия земного шара." textAlignment="JUSTIFY" wrappingWidth="450.13677978515625">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font></Text>
+      <ImageView fx:id="ImageFirst" fitHeight="219.0" fitWidth="406.0" layoutX="473.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@globus.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="88.0" prefWidth="800.0" style="-fx-background-color: #155263;">
+         <children>
+            <Text fill="WHITE" layoutX="350.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Глобус" wrappingWidth="100.53677368164062">
+               <font>
+                  <Font name="Arial Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Back" mnemonicParsing="false" onAction="#back" prefHeight="6.0" prefWidth="98.0" style="-fx-background-color: #FF6F3C;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="459.0" layoutY="86.0" prefHeight="522.0" prefWidth="14.0" style="-fx-background-color: #155263;" />
+      <Button fx:id="Globus" layoutX="547.0" layoutY="393.0" mnemonicParsing="false" onAction="#globus" prefHeight="64.0" prefWidth="179.0" style="-fx-background-color: #155263;" text="Показать на карте" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
