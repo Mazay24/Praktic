@@ -1,7 +1,7 @@
 # **Памятные места Пензы**
 <p align="center">
 ![лого](https://user-images.githubusercontent.com/96546414/209622324-803288db-552d-47e6-a1b4-4b14a1df3fe5.jpg)
-
+</p>
 ## Getting Started 
 Чтобы установить приложение, перейдите по  [ссылке](https://github.com/Mazay24/Praktic) , нажмите на зеленую кнопку Code и выберете Download ZIP. 
 <p align="center">
