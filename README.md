@@ -1,26 +1,26 @@
 # **Памятные места Пензы**
-<p align="center">
-![лого](https://user-images.githubusercontent.com/96546414/209622324-803288db-552d-47e6-a1b4-4b14a1df3fe5.jpg)
-</p>
+
+![image](https://user-images.githubusercontent.com/96546414/209626526-faa533bd-c390-4df9-b7e4-6f5f485ca5fe.png)
+
 ## Getting Started 
 Чтобы установить приложение, перейдите по  [ссылке](https://github.com/Mazay24/Praktic) , нажмите на зеленую кнопку Code и выберете Download ZIP. 
-<p align="center">
+
 ![image](https://user-images.githubusercontent.com/96546414/209622647-27410927-9e2e-4152-bec6-f067e5a7729b.png)
-</p>
+
 Рис 1. Проект на GitHub
 
 После установки, распакуйте проект в любое удобное вам место, затем запустите его в среде разработки IntelliJ IDEA (File – Open – путь к распакованному файлу – находите в src файл Application и запускаете проект).
-<p align="center">
+
 ![image](https://user-images.githubusercontent.com/96546414/209622689-6e963e49-aecc-4b40-b2d8-8d7e8bada1de.png)
-</p>
+
 Рис 2. Запуск проекта (1)
-<p align="center">
+
 ![image](https://user-images.githubusercontent.com/96546414/209622705-53a00367-12b9-4b0e-a13b-8b0fefff7499.png)
-</p>
+
 Рис 3. Запуск проекта (2)
-<p align="center">
+
 ![image](https://user-images.githubusercontent.com/96546414/209622724-ae34e431-89c0-4c3e-bca2-c9b273d617f0.png)
-</p>
+
 Рис 4. Запуск проекта (3)
 
 ## Назначение приложения 
@@ -45,3 +45,6 @@
 - IntelliJ IDEA 
 - SceneBuilder
 - JavaFx
+
+## Разбработчик
+Разработчиком является Исаев Никита, студент (ИТ - колледжа)
