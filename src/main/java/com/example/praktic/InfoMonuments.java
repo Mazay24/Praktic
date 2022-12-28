@@ -54,7 +54,7 @@ public class InfoMonuments {
         }
     }
 
-    public void rostok(ActionEvent actionEvent) {
+    public void rostok(ActionEvent actionEvent) {//Открытие ЯндексКарт
         try {
             String url = "https://yandex.ru/maps/49/penza/?ll=45.033182%2C53.200438&mode=poi&poi%5Bpoint%5D=45.025348%2C53.195311&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D158323779313&z=12.41";
             java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
@@ -63,7 +63,7 @@ public class InfoMonuments {
         }
     }
 
-    public void message(ActionEvent actionEvent) {
+    public void message(ActionEvent actionEvent) {//Открытие документа Word
         try {
             // file path to  open
             File u = new File("D:\\Java\\Praktic\\src\\main\\resources\\message.doc");
