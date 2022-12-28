@@ -15,7 +15,7 @@ public class Savitsky {
     @FXML
     private Button Back;
 
-    public void map(ActionEvent actionEvent) {
+    public void map(ActionEvent actionEvent) {//Переход на сайт ЯндексКарты
         try {
             String url = "https://yandex.ru/maps/org/gbuk_penzenskaya_oblastnaya_kartinnaya_galereya_imeni_k_a_savitskogo/1257314738/?ll=45.035242%2C53.186942&z=12.52";
             java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
@@ -24,7 +24,7 @@ public class Savitsky {
         }
     }
 
-    public void site(ActionEvent actionEvent) {
+    public void site(ActionEvent actionEvent) {//Открытие сайта
         try {
             String url = "https://www.tourister.ru/world/europe/russia/city/penza/artgallery/35465";
             java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
@@ -33,11 +33,11 @@ public class Savitsky {
         }
     }
 
-    public void phone(ActionEvent actionEvent) {
+    public void phone(ActionEvent actionEvent) {//Показ телефона
         JOptionPane.showMessageDialog(null, "56-43-15");
     }
 
-    public void back(ActionEvent actionEvent) throws IOException {
+    public void back(ActionEvent actionEvent) throws IOException {//Возврат в предыдущее окно
         Stage stageCLose = (Stage) Back.getScene().getWindow();
         stageCLose.close();
 
