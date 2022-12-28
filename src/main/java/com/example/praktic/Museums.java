@@ -26,7 +26,7 @@ public class Museums {
     ImageView Litra;
     @FXML ImageView Kraev;
     @FXML ImageView Kluch;
-    public void hold(MouseEvent mouseEvent) throws IOException {
+    public void hold(MouseEvent mouseEvent) throws IOException {//переход на следующее окно
         Stage stageCLose = (Stage) Hold.getScene().getWindow();
         stageCLose.close();
 
@@ -39,7 +39,7 @@ public class Museums {
         stage.show();
     }
 
-    public void litra(MouseEvent mouseEvent) throws IOException {
+    public void litra(MouseEvent mouseEvent) throws IOException { //переход на следующее окно
         Stage stageCLose = (Stage) Litra.getScene().getWindow();
         stageCLose.close();
 
@@ -52,7 +52,7 @@ public class Museums {
         stage.show();
     }
 
-    public void savi(MouseEvent mouseEvent) throws IOException {
+    public void savi(MouseEvent mouseEvent) throws IOException {//переход на следующее окно
         Stage stageCLose = (Stage) Savi.getScene().getWindow();
         stageCLose.close();
 
@@ -65,7 +65,7 @@ public class Museums {
         stage.show();
     }
 
-    public void odna(MouseEvent mouseEvent) throws IOException {
+    public void odna(MouseEvent mouseEvent) throws IOException {//переход на следующее окно
         Stage stageCLose = (Stage) Odna.getScene().getWindow();
         stageCLose.close();
 
@@ -78,7 +78,7 @@ public class Museums {
         stage.show();
     }
 
-    public void kraev(MouseEvent mouseEvent) throws IOException {
+    public void kraev(MouseEvent mouseEvent) throws IOException {//переход на следующее окно
         Stage stageCLose = (Stage) Kraev.getScene().getWindow();
         stageCLose.close();
 
@@ -92,7 +92,7 @@ public class Museums {
 
     }
 
-    public void kluch(MouseEvent mouseEvent) throws IOException {
+    public void kluch(MouseEvent mouseEvent) throws IOException {//переход на следующее окно
         Stage stageCLose = (Stage) Kluch.getScene().getWindow();
         stageCLose.close();
 
@@ -105,7 +105,7 @@ public class Museums {
         stage.show();
     }
 
-    public void back(ActionEvent actionEvent) throws IOException {
+    public void back(ActionEvent actionEvent) throws IOException {//Возврат назад
         Stage stageCLose = (Stage) Back.getScene().getWindow();
         stageCLose.close();
 
